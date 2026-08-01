@@ -23,4 +23,5 @@ Task 2: Attach permissions to the role
 
 Task 3: Verify the role configuration
 
-![Uploading image.png…]()
+<img width="1727" height="727" alt="image" src="https://github.com/user-attachments/assets/bd5a887b-5a96-4c03-8f89-537a23552d2f" />
+
