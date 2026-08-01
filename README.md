@@ -28,7 +28,6 @@ Task 3: Verify the role configuration
 
 <img width="1720" height="785" alt="image" src="https://github.com/user-attachments/assets/268b25da-7fc1-4d33-bfae-c57dafbd9b7c" />
 
-
 **Goal: Add DynamoDB read permissions to the role.**
 
 Step 1: Click on LambdaExecutionRole.
