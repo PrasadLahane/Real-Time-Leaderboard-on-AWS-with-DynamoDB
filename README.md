@@ -18,5 +18,9 @@ Services writing logs to CloudWatch
 What You'll Build:
 
 Task 1: Create an IAM role for Lambda
+
 Task 2: Attach permissions to the role
+
 Task 3: Verify the role configuration
+
+![Uploading image.png…]()
