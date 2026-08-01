@@ -48,4 +48,29 @@ AmazonDynamoDBReadOnlyAccess
 
 <img width="1362" height="540" alt="image" src="https://github.com/user-attachments/assets/135cad95-ed81-4225-8e70-44b513974d07" />
 
+Goal: Review the role's trust and permissions policies.
+
+Step 1: Click on LambdaExecutionRole.
+
+Step 2: Go to Trust relationships tab.
+
+Step 3: Verify the trust policy shows:
+
+Service: lambda.amazonaws.com
+Effect: Allow
+Action: sts:AssumeRole
+Step 4: Go back to Permissions tab.
+
+Step 5: Verify both policies are listed:
+
+AWSLambdaBasicExecutionRole (for CloudWatch Logs)
+AmazonDynamoDBReadOnlyAccess (for DynamoDB reads)
+Observations:
+
+Role can only be assumed by Lambda service
+Role can write logs and read DynamoDB
+Role cannot write to DynamoDB or access other services
+
+<img width="572" height="356" alt="image" src="https://github.com/user-attachments/assets/b64f2404-5e27-47f3-ace7-3bc7760af847" />
+
 
