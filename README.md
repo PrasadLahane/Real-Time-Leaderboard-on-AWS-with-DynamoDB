@@ -57,14 +57,18 @@ Step 2: Go to Trust relationships tab.
 Step 3: Verify the trust policy shows:
 
 Service: lambda.amazonaws.com
+
 Effect: Allow
+
 Action: sts:AssumeRole
+
 Step 4: Go back to Permissions tab.
 
 Step 5: Verify both policies are listed:
 
 AWSLambdaBasicExecutionRole (for CloudWatch Logs)
 AmazonDynamoDBReadOnlyAccess (for DynamoDB reads)
+
 Observations:
 
 Role can only be assumed by Lambda service
