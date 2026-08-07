@@ -78,3 +78,19 @@ Role cannot write to DynamoDB or access other services
 <img width="572" height="356" alt="image" src="https://github.com/user-attachments/assets/b64f2404-5e27-47f3-ace7-3bc7760af847" />
 
 
+<h5> AWS Lambda </h5>
+
+Serverless compute service that runs code without provisioning servers. You upload code, set memory and timeout, and Lambda handles the rest.
+
+Key Concepts:
+
+Function: Your code that runs in response to events
+Runtime: Programming language environment (Python, Node.js, Java, etc.)
+Handler: Entry point function that Lambda invokes
+Environment Variables: Key-value pairs accessible to your function
+Timeout: Maximum execution time (default 3 seconds, max 15 minutes)
+What You'll Build:
+
+Task 1: Create a Lambda function
+Task 2: Add environment variables
+Task 3: Test the function
