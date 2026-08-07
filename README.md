@@ -1,7 +1,7 @@
 # Real-Time-Leaderboard-on-AWS-with-DynamoDB
 <img width="1728" height="1117" alt="Screenshot 2026-07-31 at 2 30 43 AM" src="https://github.com/user-attachments/assets/d1e01c78-2581-49a5-977d-89cb49aeb1c3" />
 
-<h2> **IAM Roles** </h2>
+<h2> IAM Roles </h2>
 
 IAM roles are identities that AWS services assume to perform actions on your behalf. Unlike users, roles are for temporary access and are assumed by AWS services.
 
@@ -29,7 +29,7 @@ Task 3: Verify the role configuration
 <img width="1720" height="785" alt="image" src="https://github.com/user-attachments/assets/268b25da-7fc1-4d33-bfae-c57dafbd9b7c" />
 
 
-<h2> **Goal: Add DynamoDB read permissions to the role.** </h2>
+<h2> Goal: Add DynamoDB read permissions to the role </h2>
 
 Step 1: Click on LambdaExecutionRole.
 
