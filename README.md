@@ -86,12 +86,20 @@ Serverless compute service that runs code without provisioning servers. You uplo
 Key Concepts:
 
 Function: Your code that runs in response to events
+
 Runtime: Programming language environment (Python, Node.js, Java, etc.)
+
 Handler: Entry point function that Lambda invokes
+
 Environment Variables: Key-value pairs accessible to your function
+
 Timeout: Maximum execution time (default 3 seconds, max 15 minutes)
+
+
 What You'll Build:
 
 Task 1: Create a Lambda function
+
 Task 2: Add environment variables
+
 Task 3: Test the function
