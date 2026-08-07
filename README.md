@@ -68,12 +68,15 @@ Step 4: Go back to Permissions tab.
 Step 5: Verify both policies are listed:
 
 AWSLambdaBasicExecutionRole (for CloudWatch Logs)
+
 AmazonDynamoDBReadOnlyAccess (for DynamoDB reads)
 
 Observations:
 
 Role can only be assumed by Lambda service
+
 Role can write logs and read DynamoDB
+
 Role cannot write to DynamoDB or access other services
 
 <img width="572" height="356" alt="image" src="https://github.com/user-attachments/assets/b64f2404-5e27-47f3-ace7-3bc7760af847" />
