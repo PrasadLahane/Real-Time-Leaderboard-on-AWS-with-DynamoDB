@@ -106,3 +106,34 @@ Task 1: Create a Lambda function
 Task 2: Add environment variables
 
 Task 3: Test the function
+
+**Goal: Create a simple Lambda function.**
+
+Step 1: Log in to AWS Console and search for Lambda.
+
+Step 2: Click Create function.
+
+Step 3: Configure:
+
+Function name: HelloWorld
+Runtime: Python 3.14
+Click Create function
+Step 4: In the code editor, replace the default code with:
+
+import os
+
+def lambda_handler(event, context):
+    greeting = os.environ.get('GREETING')
+    name = os.environ.get('NAME')
+    return {
+        'statusCode': 200,
+        'body': f'{greeting} from {name}!'
+    }
+
+Step 5: Click Deploy.
+
+Verify:
+
+Function appears in the Lambda console
+Code is deployed successfully
+
